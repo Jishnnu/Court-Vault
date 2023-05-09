@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Custom styles for the container */
+.container {
+  max-width: 96%;
+  margin: 0 auto;
+}
+
+/* Custom styles for the list group items */
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background-color: #f9f9f9;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1.2rem 2rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+  background-color: #f2f2f2;  
+}
+
+/* Custom styles for the arrow buttons */
+.btn-outline-success {  
+  font-size: 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn-outline-success:hover {
+  color: white;
+  transform: translateX(6px);
+}
+
+.App-header {
+  /* background-color: #282c34 */
+  background-color: #fff;
+  min-height: 100vh;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  background-color: #f0f2f5;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.welcomeBackground {
+  position: relative;
+  background: url('https://images.unsplash.com/photo-1555848962-6e79363ec58f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1433&q=80');
+  height: 600px;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0 auto;
+  color: whitesmoke;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.getStartedBtn {
+  outline: 0;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  min-width: 170px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.login-form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 60px 120px 60px 120px;
+}
+
+.login-input {
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.login-button {
+  margin-top: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: ghostwhite;
+  border-color: green;
+  color: green;
+}
+
+.aboutHeadline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.aboutHeadline img {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
+
+.aboutTitle {
+  display: flex;
+  align-items: left;
+  padding-left: 200px;
+  padding-right: 400px;
+}
+
+.upload-form-control.focused {
+  border: 2px solid lightskyblue;
+  outline: none;
+}
+
+.image-grid {
+  justify-content: center;
+}
+
+.card-div {
+  display: flex;
+  width: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: small;
+}
+
+.card-image {
+  border: black solid transparent;
+  margin-left: 5px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

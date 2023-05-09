@@ -1,0 +1,11 @@
+{
+  "name": "court-website",
+  "version": "0.1.0",
+  "description": "A web application to make court case documents available for public consumption.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jishnu Pillai Anilkumar, Harshit Singh",
+  "license": "ISC"  
+}
