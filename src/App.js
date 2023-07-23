@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import AppHeader from "./components/header";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import WelcomePage from "./components/welcome";
 import { Row, Col } from "react-bootstrap";
 import Archieve from './components/archieve';
@@ -21,13 +21,13 @@ function App() {
         </header>
 
         <Routes>
-          <Route exact path="/Court-Vault" element={<WelcomePage />} />
-          <Route exact path="/archieve" element={<Archieve />} />
-          <Route exact path="/login" element={<LoginPage />} />
-          <Route exact path="/logout" element={<Logout />} />
-          <Route exact path="/thankyou" element={<ThankYouPage />} />
-          <Route exact path="/upload" element={<UploadPage />} />
-          <Route exact path="/aboutus" element={<AboutUs />} />
+          <Route exact path="/Court-Vault/" element={<WelcomePage />} />
+          <Route exact path="/Court-Vault/archieve" element={<Archieve />} />
+          <Route exact path="/Court-Vault/login" element={<LoginPage />} />
+          <Route exact path="/Court-Vault/logout" element={<Logout />} />
+          <Route exact path="/Court-Vault/thankyou" element={<ThankYouPage />} />
+          <Route exact path="/Court-Vault/upload" element={<UploadPage />} />
+          <Route exact path="/Court-Vault/aboutus" element={<AboutUs />} />
         </Routes>
 
       </div>
