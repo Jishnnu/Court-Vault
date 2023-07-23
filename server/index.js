@@ -22,10 +22,10 @@ app.use(express.json());
 const upload = multer();
 const port = process.env.PORT || 5000;
 
-const connectionString = 'DefaultEndpointsProtocol=https;AccountName=evidencemanagementstore;AccountKey=Ix6eB40v67pInDdazd7u8kC/OfGAdyIlJ9OXag1x3Cg3RmArJ2UFKy/PDJRAjaKlfG4ovOjZZ56++AStjNFfig==;EndpointSuffix=core.windows.net';
-const containerName = 'courtcasedocs';
-const accountKey = 'Ix6eB40v67pInDdazd7u8kC/OfGAdyIlJ9OXag1x3Cg3RmArJ2UFKy/PDJRAjaKlfG4ovOjZZ56++AStjNFfig==';
-const accountName = 'evidencemanagementstore';
+const connectionString = 'YOUR_AZURE_CONNECTION_STRING';
+const containerName = 'YOUR_AZURE_CONTAINER_NAME';
+const accountKey = 'YOUR_AZURE_ACCOUNT_KEY';
+const accountName = 'YOUR_AZURE_ACCOUNT_NAME';
 const blobServiceClient = BlobServiceClient.fromConnectionString(connectionString);
 const containerClient = blobServiceClient.getContainerClient(containerName);
 
