@@ -21,7 +21,7 @@ function App() {
         </header>
 
         <Routes>
-          <Route exact path="/" element={<WelcomePage />} />
+          <Route exact path="/Court-Vault" element={<WelcomePage />} />
           <Route exact path="/archieve" element={<Archieve />} />
           <Route exact path="/login" element={<LoginPage />} />
           <Route exact path="/logout" element={<Logout />} />
