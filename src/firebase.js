@@ -8,12 +8,12 @@ import { getAuth } from "firebase/auth";
 
 // Firebase Configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCbcpPEF3T42wBtE7DKwdlBlbDEoniocJQ",
-    authDomain: "court-document-management.firebaseapp.com",
+    apiKey: "YOUR_FIREBASE_API_KEY",
+    authDomain: "YOUR_FIREBASE_AUTH_DOMAIN",
     projectId: "court-document-management",
-    storageBucket: "court-document-management.appspot.com",
-    messagingSenderId: "172964878362",
-    appId: "1:172964878362:web:5860ee73910334677a59a3"
+    storageBucket: "YOUR_FIREBASE_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_FIREBASE_MESSAGING_SENDER_ID",
+    appId: "YOUR_FIREBASE_APP_ID"
 };
 
 // Initialize Firebase
