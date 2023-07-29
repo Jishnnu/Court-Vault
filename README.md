@@ -1,5 +1,5 @@
 # Court Vault
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Jishnnu/Court-Vault)](https://github.com/Jishnnu/Court-Vault) &ensp; ![GitHub top language](https://img.shields.io/github/languages/top/Jishnnu/Evidence-Archives) &ensp; ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/Jishnnu/Evidence-Archives)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Jishnnu/Court-Vault)](https://github.com/Jishnnu/Court-Vault) &ensp; ![GitHub top language](https://img.shields.io/github/languages/top/Jishnnu/Court-Vault) &ensp; ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/Jishnnu/Court-Vault)
 
 This repository is dedicated for the development of a Court website and is intended to serve as an academic project. Here, the court officials can publish court case documents fit for public consumption and the general public will be given access to all them. This project is aimed to harmonize public-court transparency, awareness and accountability.
 
